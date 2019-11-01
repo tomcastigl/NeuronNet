@@ -1,6 +1,9 @@
 #include "simulation.h"
 #include "random.h"
-
+/* pour moua :
+ * faire :
+ * 		prblm avec degree.... fuck it. rentre po dans le if, segfault avant.
+ * */
 /*!
   \mainpage %Neuron network dynamics
 

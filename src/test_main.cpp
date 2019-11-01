@@ -61,7 +61,6 @@ TEST(networkTest, initialize) {
     EXPECT_NEAR(0.2*_REST_VAL_*(1+0.1*_BVAR_), mean, 1e-1);
     EXPECT_NEAR(-0.2*_REST_VAL_*_BVAR_*sqrt(0.194), sdv, 1.5e-1);
 }
-
 TEST(networkTest, connect) {
     bool trylink = net.add_link(0, 0, 10);
     EXPECT_FALSE(trylink);
